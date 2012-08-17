@@ -1,40 +1,241 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms (nl)\n"
+"Project-Id-Version: Gravity Forms Polls Add-on\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-17 10:01+0100\n"
-"PO-Revision-Date: 2012-08-17 10:01+0100\n"
+"POT-Creation-Date: 2012-08-09 15:17+0100\n"
+"PO-Revision-Date: 2012-08-09 15:17+0100\n"
 "Last-Translator: Remco Tolsma <remco@pronamic.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__withdesc;_ewithdesc;_c;_n_noop:1,2;__ngettext_noop:1,2;_x:2c,1;_nc:1,2;esc_attr_e;esc_html_e;esc_attr__;_nx:4c,1,2;_nx_noop:4c,1,2;esc_html_x:2c,1;esc_html__;_ex:2c,1\n"
-"X-Poedit-Basepath: W:\\rt.beta.pronamic.nl\\httpdocs\\wp-content\\plugins\\gravityforms-nl\n"
+"X-Poedit-Basepath: ../\n"
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: gravityforms-nl.php:199
-msgid "Untitled Form"
-msgstr "Formulier zonder titel"
+#: plugin-upgrade.php:53
+#: polls.php:1340
+#, php-format
+msgid "View version %s Details"
+msgstr ""
 
-#: gravityforms-nl.php:200
-msgid "We would love to hear from you! Please fill out this form and we will get in touch with you shortly."
-msgstr "We horen graag van u! Vul dit formulier in en we zullen zo snel mogelijk contact met u opnemen."
+#: plugin-upgrade.php:72
+#, php-format
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr ""
 
-#: gravityforms-nl.php:201
-msgid "Thanks for contacting us! We will get in touch with you shortly."
-msgstr "Bedankt voor uw bericht. Wij zullen zo snel mogelijk contact met u opnemen."
+#: polls.php:421
+#, fuzzy
+msgid "First Choice"
+msgstr "Voornaam"
 
-#: gravityforms-nl.php:202
-msgid "Submit"
-msgstr "Verzenden"
+#: polls.php:421
+#, fuzzy
+msgid "Second Choice"
+msgstr "Rubriek"
 
-#: gravityforms-nl.php:219
-msgid "Euro"
-msgstr "Euro"
+#: polls.php:421
+#, fuzzy
+msgid "Third Choice"
+msgstr "Voornaam"
+
+#: polls.php:472
+#, fuzzy
+msgid "Poll Question"
+msgstr "Alle secties"
+
+#: polls.php:480
+#, fuzzy
+msgid "Poll Type"
+msgstr "Types"
+
+#: polls.php:484
+msgid "Drop Down"
+msgstr ""
+
+#: polls.php:485
+msgid "Radio Buttons"
+msgstr ""
+
+#: polls.php:486
+msgid "Checkboxes"
+msgstr ""
+
+#: polls.php:499
+msgid "Randomize order of choices"
+msgstr ""
+
+#: polls.php:512
+#: pollwidget.php:108
+msgid "Poll"
+msgstr ""
+
+#: polls.php:538
+msgid "<h2>Original Response</h2>"
+msgstr ""
+
+#: polls.php:761
+#, fuzzy
+msgid "Other"
+msgstr "meter"
+
+#: polls.php:1129
+#, fuzzy
+msgid "View results"
+msgstr "Interview bekijken"
+
+#: polls.php:1130
+msgid "Back to the poll"
+msgstr ""
+
+#: polls.php:1333
+msgid "Gravity Forms "
+msgstr ""
+
+#: polls.php:1340
+msgid "There is a new version of Gravity Forms Polls Add-On available."
+msgstr ""
+
+#: polls.php:1341
+#, php-format
+msgid "%sRegister%s your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr ""
+
+#: pollwidget.php:15
+msgid "Gravity Forms Poll Widget"
+msgstr ""
+
+#: pollwidget.php:130
+msgid "Title"
+msgstr "Titel"
+
+#: pollwidget.php:136
+msgid "Select a Form"
+msgstr ""
+
+#: pollwidget.php:151
+#, fuzzy
+msgid "Display form title"
+msgstr "Weergavenaam"
+
+#: pollwidget.php:152
+#, fuzzy
+msgid "Display form description"
+msgstr "Weergavenaam"
+
+#: pollwidget.php:153
+#, fuzzy
+msgid "Display form confirmation"
+msgstr "Weergavenaam"
+
+#: pollwidget.php:159
+#, fuzzy
+msgid "Display Mode"
+msgstr "Weergavenaam"
+
+#: pollwidget.php:167
+msgid "Display results after voting"
+msgstr ""
+
+#: pollwidget.php:170
+msgid "Show link to view results"
+msgstr ""
+
+#: pollwidget.php:172
+msgid "Show percentages"
+msgstr ""
+
+#: pollwidget.php:174
+msgid "Show counts"
+msgstr ""
+
+#: pollwidget.php:178
+#, fuzzy
+msgid "Style"
+msgstr "Titel"
+
+#: pollwidget.php:180
+#, fuzzy
+msgid "Green"
+msgstr "Beoordeling"
+
+#: pollwidget.php:181
+msgid "Blue"
+msgstr ""
+
+#: pollwidget.php:182
+msgid "Red"
+msgstr ""
+
+#: pollwidget.php:183
+msgid "Orange"
+msgstr ""
+
+#: pollwidget.php:190
+msgid "Don't block repeat voting"
+msgstr ""
+
+#: pollwidget.php:191
+msgid "Block repeat voting using cookie"
+msgstr ""
+
+#: pollwidget.php:194
+#, fuzzy
+msgid "Expires:"
+msgstr "Oefenstof"
+
+#: pollwidget.php:198
+msgid "Never"
+msgstr ""
+
+#: pollwidget.php:199
+msgid "1 hour"
+msgstr ""
+
+#: pollwidget.php:200
+msgid "6 hours"
+msgstr ""
+
+#: pollwidget.php:201
+msgid "12 hours"
+msgstr ""
+
+#: pollwidget.php:202
+msgid "1 day"
+msgstr ""
+
+#: pollwidget.php:203
+#, fuzzy
+msgid "1 week"
+msgstr "Midweek"
+
+#: pollwidget.php:204
+#, fuzzy
+msgid "1 month"
+msgstr "Alle maanden"
+
+#: pollwidget.php:219
+msgid "advanced options"
+msgstr ""
+
+#: pollwidget.php:222
+msgid "Enable AJAX"
+msgstr ""
+
+#: pollwidget.php:223
+msgid "Disable script output"
+msgstr ""
+
+#: pollwidget.php:224
+msgid "Tab Index Start"
+msgstr ""
+
+#: pollwidget.php:226
+msgid "If you have other forms on the page (i.e. Comments Form), specify a higher tabindex start value so that your Gravity Form does not end up with the same tabindices as your other forms. To disable the tabindex, enter 0 (zero)."
+msgstr ""
 
 #~ msgid "Thumbnail"
 #~ msgstr "Miniatuur"
@@ -50,10 +251,6 @@ msgstr "Euro"
 #, fuzzy
 #~ msgid "Required form fields"
 #~ msgstr "Verplichte velden zijn gemarkeerd als %s"
-
-#, fuzzy
-#~ msgid "Other"
-#~ msgstr "meter"
 
 #, fuzzy
 #~ msgid "Date"
@@ -88,10 +285,6 @@ msgstr "Euro"
 #~ msgstr "Beoordeling"
 
 #, fuzzy
-#~ msgid "Total"
-#~ msgstr "Portaal"
-
-#, fuzzy
 #~ msgid "Product"
 #~ msgstr "Project"
 
@@ -105,57 +298,6 @@ msgstr "Euro"
 
 #~ msgid "%1$s at %2$s"
 #~ msgstr "%1$s op %2$s"
-
-#, fuzzy
-#~ msgid "Number"
-#~ msgstr "Aantal slaapplaatsen"
-
-#, fuzzy
-#~ msgid "Section Break"
-#~ msgstr "Sectie 1"
-
-#~ msgid "Name"
-#~ msgstr "Naam"
-
-#, fuzzy
-#~ msgid "Time"
-#~ msgstr "Titel"
-
-#~ msgid "Address"
-#~ msgstr "Adres"
-
-#~ msgid "Website"
-#~ msgstr "Website"
-
-#, fuzzy
-#~ msgid "Email"
-#~ msgstr "E-mailadres"
-
-#~ msgid "Password"
-#~ msgstr "Wachtwoord"
-
-#, fuzzy
-#~ msgid "List"
-#~ msgstr "Achternaam"
-
-#~ msgid "Title"
-#~ msgstr "Titel"
-
-#, fuzzy
-#~ msgid "Tags"
-#~ msgstr "Pagina's: %s"
-
-#, fuzzy
-#~ msgid "Category"
-#~ msgstr "Categorie:"
-
-#, fuzzy
-#~ msgid "Option"
-#~ msgstr "Acties"
-
-#, fuzzy
-#~ msgid "Shipping"
-#~ msgstr "Schepen in"
 
 #, fuzzy
 #~ msgid "Algeria"
@@ -186,16 +328,8 @@ msgstr "Euro"
 #~ msgstr "Clubnaam"
 
 #, fuzzy
-#~ msgid "France"
-#~ msgstr "relevantie"
-
-#, fuzzy
 #~ msgid "Greece"
 #~ msgstr "relevantie"
-
-#, fuzzy
-#~ msgid "Greenland"
-#~ msgstr "Beoordeling"
 
 #, fuzzy
 #~ msgid "Grenada"
@@ -310,20 +444,8 @@ msgstr "Euro"
 #~ msgstr "Onderwerp"
 
 #, fuzzy
-#~ msgid "Month"
-#~ msgstr "Maand:"
-
-#, fuzzy
-#~ msgid "Year"
-#~ msgstr "Zoeken"
-
-#, fuzzy
 #~ msgid "Enter Email"
 #~ msgstr "Gebruikersnaam of e-mailadres:"
-
-#, fuzzy
-#~ msgid "delete"
-#~ msgstr "wijzig / verwijder"
 
 #, fuzzy
 #~ msgid "File"
@@ -380,18 +502,6 @@ msgstr "Euro"
 #~ msgstr "Verwijder bericht"
 
 #, fuzzy
-#~ msgid "Card Number"
-#~ msgstr "Aantal slaapplaatsen"
-
-#, fuzzy
-#~ msgid "Expiration Date"
-#~ msgstr "Oefenwedstrijd"
-
-#, fuzzy
-#~ msgid "Add a row"
-#~ msgstr "Nieuwe toevoegen"
-
-#, fuzzy
 #~ msgid "Postal Code"
 #~ msgstr "Plaats reactie"
 
@@ -420,55 +530,20 @@ msgstr "Euro"
 #~ msgstr "Begindatum:"
 
 #, fuzzy
-#~ msgid "Subscriber Id"
-#~ msgstr "Abonneenummer"
-
-#, fuzzy
 #~ msgid "Payment Amount"
 #~ msgstr "Pagina niet gevonden"
 
 #, fuzzy
-#~ msgid "Delete Permanently"
-#~ msgstr "Verwijder bericht"
+#~ msgid "Edit Entry"
+#~ msgstr "Evenement bewerken"
 
 #, fuzzy
-#~ msgid "Restore"
-#~ msgstr "Gerelateerd"
+#~ msgid "Update Entry"
+#~ msgstr "Update evenement categorie"
 
 #, fuzzy
-#~ msgid "Mark as Spam"
-#~ msgstr "Meest gelezen"
-
-#~ msgid "Edit"
-#~ msgstr "Bewerken"
-
-#, fuzzy
-#~ msgid "Update"
-#~ msgstr "Update classificatie"
-
-#, fuzzy
-#~ msgid "Notifications"
-#~ msgstr "Geen secties"
-
-#, fuzzy
-#~ msgid "Admin Notification"
-#~ msgstr "Geen secties"
-
-#, fuzzy
-#~ msgid "User Notification"
-#~ msgstr "Geen secties"
-
-#, fuzzy
-#~ msgid "Send To"
-#~ msgstr "Gebruikersnaam of e-mailadres:"
-
-#, fuzzy
-#~ msgid "Resend Notifications"
-#~ msgstr "Geen secties"
-
-#, fuzzy
-#~ msgid "Print"
-#~ msgstr "Artikelen"
+#~ msgid "Add Note"
+#~ msgstr "Nieuwe toevoegen"
 
 #, fuzzy
 #~ msgid "Notes"
@@ -485,48 +560,12 @@ msgstr "Euro"
 #~ msgid " Bulk action"
 #~ msgstr "Reactie"
 
-#, fuzzy
-#~ msgid "Delete"
-#~ msgstr "Verwijder bericht"
-
-#, fuzzy
-#~ msgid "Add Note"
-#~ msgstr "Nieuwe toevoegen"
-
 #~ msgid "Subject:"
 #~ msgstr "Onderwerp:"
 
 #, fuzzy
-#~ msgid "Entry deleted."
-#~ msgstr "Einddatum:"
-
-#, fuzzy
-#~ msgid "%d entries"
-#~ msgstr "Interviews"
-
-#, fuzzy
-#~ msgid "1 entry"
-#~ msgstr "1 Reactie"
-
-#, fuzzy
-#~ msgid "%s deleted."
-#~ msgstr "wijzig / verwijder"
-
-#, fuzzy
-#~ msgid "%s marked as read."
-#~ msgstr "Meest gelezen"
-
-#, fuzzy
-#~ msgid "%s marked as unread."
-#~ msgstr "Meest gelezen"
-
-#, fuzzy
-#~ msgid "%s starred."
-#~ msgstr "Straat"
-
-#, fuzzy
-#~ msgid "%s unstarred."
-#~ msgstr "Straat"
+#~ msgid "Total"
+#~ msgstr "Portaal"
 
 #, fuzzy
 #~ msgid "&laquo;"
@@ -535,22 +574,6 @@ msgstr "Euro"
 #, fuzzy
 #~ msgid "&raquo;"
 #~ msgstr "Uitloggen &raquo;"
-
-#, fuzzy
-#~ msgid "Print Entries"
-#~ msgstr "Interview bekijken"
-
-#, fuzzy
-#~ msgid "entry"
-#~ msgstr "Land"
-
-#, fuzzy
-#~ msgid "entries"
-#~ msgstr "Interviews"
-
-#, fuzzy
-#~ msgid "Entry List"
-#~ msgstr "Interviews"
 
 #, fuzzy
 #~ msgid "Entries"
@@ -564,10 +587,6 @@ msgstr "Euro"
 #~ msgstr "Straat"
 
 #, fuzzy
-#~ msgid "Trash"
-#~ msgstr "Pagina's: %s"
-
-#, fuzzy
 #~ msgid "Search Entries:"
 #~ msgstr "Zoek evenementen"
 
@@ -575,20 +594,8 @@ msgstr "Euro"
 #~ msgstr "Zoeken"
 
 #, fuzzy
-#~ msgid "Bulk action"
-#~ msgstr "Reactie"
-
-#, fuzzy
 #~ msgid "Mark as Unread"
 #~ msgstr "Meest gelezen"
-
-#, fuzzy
-#~ msgid "Delete All Spam"
-#~ msgstr "Verwijder bericht"
-
-#, fuzzy
-#~ msgid "Select Columns"
-#~ msgstr "Rubrieken"
 
 #, fuzzy
 #~ msgid "View this entry"
@@ -599,20 +606,16 @@ msgstr "Euro"
 #~ msgstr "Bekijk schip"
 
 #, fuzzy
-#~ msgid "Restore this entry"
-#~ msgstr "Verwijder bericht"
-
-#, fuzzy
-#~ msgid "Delete this entry permanently"
-#~ msgstr "Verwijder bericht"
-
-#, fuzzy
 #~ msgid "Mark read"
 #~ msgstr "Meest gelezen"
 
 #, fuzzy
 #~ msgid "Mark unread"
 #~ msgstr "Meest gelezen"
+
+#, fuzzy
+#~ msgid "Bulk action "
+#~ msgstr "Publicatie ID"
 
 #, fuzzy
 #~ msgid "Import Forms"
@@ -638,20 +641,12 @@ msgstr "Euro"
 #~ msgstr "Status"
 
 #, fuzzy
-#~ msgid "Entry Date"
-#~ msgstr "Einddatum:"
-
-#, fuzzy
 #~ msgid "New Form"
 #~ msgstr "Formulier"
 
 #, fuzzy
-#~ msgid "Form Settings"
-#~ msgstr "Geen secties"
-
-#, fuzzy
-#~ msgid "Form ID"
-#~ msgstr "Formulier"
+#~ msgid "Delete Form"
+#~ msgstr "Verwijder bericht"
 
 #, fuzzy
 #~ msgid "Properties"
@@ -666,28 +661,12 @@ msgstr "Euro"
 #~ msgstr "Plaats een reactie"
 
 #, fuzzy
-#~ msgid "Description Placement"
-#~ msgstr "Projectgegevens"
-
-#, fuzzy
-#~ msgid "Above inputs"
-#~ msgstr "Over %s"
-
-#, fuzzy
 #~ msgid "CSS Class Name"
 #~ msgstr "Nieuwe classificatie naam"
 
 #, fuzzy
 #~ msgid "Number of Entries"
 #~ msgstr "Aantal personen"
-
-#, fuzzy
-#~ msgid "total entries"
-#~ msgstr "Land"
-
-#, fuzzy
-#~ msgid "per month"
-#~ msgstr "Alle maanden"
 
 #, fuzzy
 #~ msgid "Start Date/Time"
@@ -714,10 +693,6 @@ msgstr "Euro"
 #~ msgstr "wijzigen"
 
 #, fuzzy
-#~ msgid "Select a page"
-#~ msgstr "Project categorie"
-
-#, fuzzy
 #~ msgid "Edit Last Page"
 #~ msgstr "Fase bewerken"
 
@@ -726,24 +701,16 @@ msgstr "Euro"
 #~ msgstr "Schepen"
 
 #, fuzzy
-#~ msgid "Style"
-#~ msgstr "Titel"
-
-#, fuzzy
 #~ msgid "Gray"
 #~ msgstr "Beoordeling"
 
 #, fuzzy
-#~ msgid "Green"
-#~ msgstr "Beoordeling"
-
-#, fuzzy
-#~ msgid "Red"
-#~ msgstr "Gerelateerd"
-
-#, fuzzy
 #~ msgid "Page Names"
 #~ msgstr "Nieuwe fase naam"
+
+#, fuzzy
+#~ msgid "Update Form"
+#~ msgstr "Update accessoire"
 
 #, fuzzy
 #~ msgid "Continue editing this form"
@@ -758,12 +725,35 @@ msgstr "Euro"
 #~ msgstr "Ga terug naar %s"
 
 #, fuzzy
+#~ msgid "Continue Editing"
+#~ msgstr "Lees verder &rarr;"
+
+#, fuzzy
+#~ msgid "Preview Form"
+#~ msgstr "Registratieformulier"
+
+#, fuzzy
 #~ msgid "Single Product"
 #~ msgstr "Bekijk project"
 
 #, fuzzy
+#~ msgid "Number"
+#~ msgstr "Aantal slaapplaatsen"
+
+#, fuzzy
 #~ msgid "Content"
 #~ msgstr "Content type"
+
+#, fuzzy
+#~ msgid "Time"
+#~ msgstr "Titel"
+
+#~ msgid "Website"
+#~ msgstr "Website"
+
+#, fuzzy
+#~ msgid "Email"
+#~ msgstr "E-mailadres"
 
 #, fuzzy
 #~ msgid "Type"
@@ -794,28 +784,16 @@ msgstr "Euro"
 #~ msgstr "Status"
 
 #, fuzzy
-#~ msgid "Draft"
-#~ msgstr "datum"
-
-#, fuzzy
-#~ msgid "Post Format"
-#~ msgstr "Inlogformulier"
-
-#, fuzzy
 #~ msgid "Post Category"
 #~ msgstr "Project categorie"
 
 #, fuzzy
+#~ msgid "Category"
+#~ msgstr "Categorie:"
+
+#, fuzzy
 #~ msgid "All Categories"
 #~ msgstr "Categorieën"
-
-#, fuzzy
-#~ msgid "Select Categories"
-#~ msgstr "Project categorieën"
-
-#, fuzzy
-#~ msgid "Display placeholder"
-#~ msgstr "Weergavenaam"
 
 #, fuzzy
 #~ msgid "Address Type"
@@ -842,14 +820,6 @@ msgstr "Euro"
 #~ msgstr "Geen secties"
 
 #, fuzzy
-#~ msgid "Enable multiple columns"
-#~ msgstr "Juridische navigatie"
-
-#, fuzzy
-#~ msgid "Time Format"
-#~ msgstr "Inlogformulier"
-
-#, fuzzy
 #~ msgid "Phone Format"
 #~ msgstr "Inlogformulier"
 
@@ -860,10 +830,6 @@ msgstr "Euro"
 #, fuzzy
 #~ msgid "Countries"
 #~ msgstr "Land"
-
-#, fuzzy
-#~ msgid "Continents"
-#~ msgstr "Reacties"
 
 #, fuzzy
 #~ msgid "Gender"
@@ -888,10 +854,6 @@ msgstr "Euro"
 #, fuzzy
 #~ msgid "Student"
 #~ msgstr "Straat"
-
-#, fuzzy
-#~ msgid "Job Type"
-#~ msgstr "Types"
 
 #, fuzzy
 #~ msgid "Part-Time"
@@ -969,10 +931,6 @@ msgstr "Euro"
 #~ msgstr "Onthoud mij"
 
 #, fuzzy
-#~ msgid "1-6 months"
-#~ msgstr "Alle maanden"
-
-#, fuzzy
 #~ msgid "Satisfaction"
 #~ msgstr "Realisatie"
 
@@ -997,20 +955,8 @@ msgstr "Euro"
 #~ msgstr "Advertentie"
 
 #, fuzzy
-#~ msgid "Insert Choices"
-#~ msgstr "Voornaam"
-
-#, fuzzy
-#~ msgid "Save as"
-#~ msgstr "Zeilschip"
-
-#, fuzzy
-#~ msgid "Enter name"
-#~ msgstr "Einddatum:"
-
-#, fuzzy
-#~ msgid "enter name"
-#~ msgstr "Interviews"
+#~ msgid "Update Choices"
+#~ msgstr "Update classificatie"
 
 #, fuzzy
 #~ msgid "Short"
@@ -1019,38 +965,6 @@ msgstr "Euro"
 #, fuzzy
 #~ msgid "Strong"
 #~ msgstr "Rubriek"
-
-#, fuzzy
-#~ msgid "Number Format"
-#~ msgstr "Formulier"
-
-#, fuzzy
-#~ msgid "Standard"
-#~ msgstr "Straat"
-
-#, fuzzy
-#~ msgid "Custom Mask Instructions"
-#~ msgstr "Bouwfouten"
-
-#, fuzzy
-#~ msgid "Usage"
-#~ msgstr "Gebruikersnaam"
-
-#, fuzzy
-#~ msgid "Examples"
-#~ msgstr "Zeilschip"
-
-#, fuzzy
-#~ msgid "Social Security Number"
-#~ msgstr "Abonneenummers"
-
-#, fuzzy
-#~ msgid "Course Code"
-#~ msgstr "Plaats reactie"
-
-#, fuzzy
-#~ msgid "Select a Mask"
-#~ msgstr "Project categorie"
 
 #, fuzzy
 #~ msgid "Rules"
@@ -1073,10 +987,6 @@ msgstr "Euro"
 #~ msgstr "Zeilschip"
 
 #, fuzzy
-#~ msgid "Delete Icon URL"
-#~ msgstr "Verwijder bericht"
-
-#, fuzzy
 #~ msgid "Enable Password Input"
 #~ msgstr "Nieuw wachtwoord"
 
@@ -1085,28 +995,29 @@ msgstr "Euro"
 #~ msgstr "Evenement"
 
 #, fuzzy
-#~ msgid "Post Fields"
-#~ msgstr "Berichten"
+#~ msgid "Section Break"
+#~ msgstr "Sectie 1"
+
+#~ msgid "Name"
+#~ msgstr "Naam"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "Password"
+#~ msgstr "Wachtwoord"
 
 #, fuzzy
-#~ msgid "Delete Form"
-#~ msgstr "Verwijder bericht"
+#~ msgid "Tags"
+#~ msgstr "Pagina's: %s"
 
 #, fuzzy
-#~ msgid "Update Form"
-#~ msgstr "Update accessoire"
+#~ msgid "Shipping"
+#~ msgstr "Schepen in"
 
 #, fuzzy
-#~ msgid "Save Form"
-#~ msgstr "Formulier"
-
-#, fuzzy
-#~ msgid "Preview"
-#~ msgstr "Overzicht"
-
-#, fuzzy
-#~ msgid "Sorry. You must be logged in to view this form."
-#~ msgstr "Je moet ingelogd zijn om je profiel te bekijken."
+#~ msgid "Donation"
+#~ msgstr "Locatie:"
 
 #, fuzzy
 #~ msgid "Step"
@@ -1119,6 +1030,14 @@ msgstr "Euro"
 #, fuzzy
 #~ msgid "Previous Page"
 #~ msgstr "Registreren pagina"
+
+#, fuzzy
+#~ msgid "Submit"
+#~ msgstr "Sub titel:"
+
+#, fuzzy
+#~ msgid "Edit this form"
+#~ msgstr "Bewerk rubriek"
 
 #, fuzzy
 #~ msgid ""
@@ -1135,22 +1054,6 @@ msgstr "Euro"
 #~ msgstr "Registreren pagina"
 
 #, fuzzy
-#~ msgid "Field ID"
-#~ msgstr "Type schip"
-
-#, fuzzy
-#~ msgid "Active"
-#~ msgstr "Archieven"
-
-#, fuzzy
-#~ msgid "Edit Forms"
-#~ msgstr "Registratieformulier"
-
-#, fuzzy
-#~ msgid "Add New"
-#~ msgstr "Nieuwe toevoegen"
-
-#, fuzzy
 #~ msgid "Reset Views"
 #~ msgstr "Recent nieuws"
 
@@ -1163,12 +1066,16 @@ msgstr "Euro"
 #~ msgstr "nieuws"
 
 #, fuzzy
-#~ msgid "Update Available"
-#~ msgstr "Update magazine"
+#~ msgid "Preview"
+#~ msgstr "Overzicht"
 
 #, fuzzy
-#~ msgid "Forms"
-#~ msgstr "Formulier"
+#~ msgid "Notifications"
+#~ msgstr "Geen secties"
+
+#, fuzzy
+#~ msgid "Update Available"
+#~ msgstr "Update magazine"
 
 #, fuzzy
 #~ msgid "Settings"
@@ -1179,28 +1086,8 @@ msgstr "Euro"
 #~ msgstr "Importeer"
 
 #, fuzzy
-#~ msgid "Updates"
-#~ msgstr "Update classificatie"
-
-#, fuzzy
 #~ msgid "Insert A Form"
 #~ msgstr "Registratieformulier"
-
-#, fuzzy
-#~ msgid "Display form title"
-#~ msgstr "Weergavenaam"
-
-#, fuzzy
-#~ msgid "Form Name"
-#~ msgstr "Voornaam"
-
-#, fuzzy
-#~ msgid "Unread Entries"
-#~ msgstr "Bekijk alle interviews"
-
-#, fuzzy
-#~ msgid "Last Entry"
-#~ msgstr "Update evenement categorie"
 
 #, fuzzy
 #~ msgid "View All Entries"
@@ -1211,40 +1098,20 @@ msgstr "Euro"
 #~ msgstr "Bekijk alle interviews"
 
 #, fuzzy
-#~ msgid "View All Forms"
-#~ msgstr "Bekijk alle interviews"
-
-#, fuzzy
 #~ msgid "Dismiss"
 #~ msgstr "Regio's"
 
 #, fuzzy
-#~ msgid "Select a format"
-#~ msgstr "Verwijder bericht"
-
-#, fuzzy
-#~ msgid "Please enter name."
-#~ msgstr "Bovenliggende fase:"
-
-#, fuzzy
-#~ msgid "Close"
-#~ msgstr "Classificaties"
+#~ msgid "Form Settings"
+#~ msgstr "Geen secties"
 
 #, fuzzy
 #~ msgid "Select a category"
 #~ msgstr "Project categorie"
 
 #, fuzzy
-#~ msgid "Parameter Name:"
-#~ msgstr "Bovenliggende fase:"
-
-#, fuzzy
-#~ msgid "First Choice"
-#~ msgstr "Voornaam"
-
-#, fuzzy
-#~ msgid "Card Type"
-#~ msgstr "Types"
+#~ msgid "Untitled"
+#~ msgstr "Titel"
 
 #, fuzzy
 #~ msgid "Post Title"
@@ -1267,20 +1134,16 @@ msgstr "Euro"
 #~ msgstr "Publicatie naam"
 
 #, fuzzy
-#~ msgid "Second Option"
-#~ msgstr "Rubriek"
-
-#, fuzzy
-#~ msgid "Donation"
-#~ msgstr "Locatie:"
+#~ msgid "Close"
+#~ msgstr "Classificaties"
 
 #, fuzzy
 #~ msgid "Hide"
 #~ msgstr "Kop"
 
 #, fuzzy
-#~ msgid "add another choice"
-#~ msgstr "Update classificatie"
+#~ msgid "Parameter Name:"
+#~ msgstr "Bovenliggende fase:"
 
 #, fuzzy
 #~ msgid "User IP Address"
@@ -1306,16 +1169,8 @@ msgstr "Euro"
 #~ msgstr "Onderwerp"
 
 #, fuzzy
-#~ msgid "Save Settings"
-#~ msgstr "Bijeenkomsten"
-
-#, fuzzy
 #~ msgid "Notification Updated."
 #~ msgstr "Publicatiedatum"
-
-#, fuzzy
-#~ msgid "Print Preview"
-#~ msgstr "Overzicht"
 
 #, fuzzy
 #~ msgid "Active Columns"
@@ -1358,48 +1213,12 @@ msgstr "Euro"
 #~ msgstr "Aantal slaapplaatsen"
 
 #, fuzzy
-#~ msgid "\"Other\" Choice"
-#~ msgstr "Update classificatie"
-
-#, fuzzy
 #~ msgid "Post Author"
 #~ msgstr "Auteur"
 
 #, fuzzy
 #~ msgid "Post Content Template"
 #~ msgstr "Content type"
-
-#, fuzzy
-#~ msgid "Override Notifications"
-#~ msgstr "Geen secties"
-
-#, fuzzy
-#~ msgid "Contact Us"
-#~ msgstr "Contact"
-
-#, fuzzy
-#~ msgid "Edit Entry"
-#~ msgstr "Evenement bewerken"
-
-#, fuzzy
-#~ msgid "Bulk action "
-#~ msgstr "Publicatie ID"
-
-#, fuzzy
-#~ msgid "Continue Editing"
-#~ msgstr "Lees verder &rarr;"
-
-#, fuzzy
-#~ msgid "Preview Form"
-#~ msgstr "Registratieformulier"
-
-#, fuzzy
-#~ msgid "Add Fields"
-#~ msgstr "Nieuwe classificatie toevoegen"
-
-#, fuzzy
-#~ msgid "Edit this form"
-#~ msgstr "Bewerk rubriek"
 
 #~ msgid "Nothing Found"
 #~ msgstr "Niet gevonden"
@@ -1661,9 +1480,6 @@ msgstr "Euro"
 #~ msgid "RSS Bouwproducten.nl"
 #~ msgstr "RSS Bouwproducten.nl"
 
-#~ msgid "Respond Conditions Page"
-#~ msgstr "Reactie voorwaarden pagina"
-
 #~ msgid "&mdash; Select &mdash;"
 #~ msgstr "&mdash; Selecteren &mdash;"
 
@@ -1897,6 +1713,9 @@ msgstr "Euro"
 #~ msgid "Recent projects"
 #~ msgstr "Recente projecten"
 
+#~ msgid "Construction Errors"
+#~ msgstr "Bouwfouten"
+
 #~ msgid "Construction error"
 #~ msgstr "Bouwfout"
 
@@ -1935,6 +1754,9 @@ msgstr "Euro"
 #~ msgid "Author Archives: %s"
 #~ msgstr "Auteur archieven: %s"
 
+#~ msgid "About %s"
+#~ msgstr "Over %s"
+
 #~ msgid "Tag Archives: %s"
 #~ msgstr "Tag archief: %s"
 
@@ -1951,6 +1773,9 @@ msgstr "Euro"
 #, fuzzy
 #~ msgid "More Galleries"
 #~ msgstr "Bekijk alle oefenstof"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 Reactie"
 
 #~ msgid "% Comments"
 #~ msgstr "% Reacties"
@@ -2096,6 +1921,9 @@ msgstr "Euro"
 #~ msgid "Type your new password again."
 #~ msgstr "Type je nieuwe wachtwoord nogmaals."
 
+#~ msgid "You must be logged in to view your profile."
+#~ msgstr "Je moet ingelogd zijn om je profiel te bekijken."
+
 #~ msgid "Exhibition Games"
 #~ msgstr "Oefenwedstrijden"
 
@@ -2165,9 +1993,6 @@ msgstr "Euro"
 #~ msgid "Section:"
 #~ msgstr "Rubriek:"
 
-#~ msgid "All sections"
-#~ msgstr "Alle secties"
-
 #~ msgid "All subjects"
 #~ msgstr "Alle onderwerpen"
 
@@ -2203,9 +2028,6 @@ msgstr "Euro"
 
 #~ msgid "View all the news"
 #~ msgstr "Bekijk al het nieuws"
-
-#~ msgid "Exercies"
-#~ msgstr "Oefenstof"
 
 #~ msgid "View all events"
 #~ msgstr "Bekijk alle evenementen"
@@ -2305,6 +2127,10 @@ msgstr "Euro"
 
 #~ msgid "Exhibition Games"
 #~ msgstr "Oefenwedstrijden"
+#~ msgctxt "post type singular name"
+
+#~ msgid "Exhibition Game"
+#~ msgstr "Oefenwedstrijd"
 #~ msgctxt "exhibition_game"
 
 #~ msgid "Add New"
@@ -2336,6 +2162,9 @@ msgstr "Euro"
 
 #~ msgid "Levels"
 #~ msgstr "Leeftijden"
+
+#~ msgid "Subscriber Numbers"
+#~ msgstr "Abonneenummers"
 
 #~ msgid "Extend Subscriber Numbers"
 #~ msgstr "Uitbreiding abonneenummers"
@@ -2725,9 +2554,6 @@ msgstr "Euro"
 
 #~ msgid "Weekend"
 #~ msgstr "Weekend"
-
-#~ msgid "Midweek"
-#~ msgstr "Midweek"
 
 #~ msgid "3 Holidays"
 #~ msgstr "3 feestdagen"
