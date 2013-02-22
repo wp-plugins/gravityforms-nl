@@ -4,7 +4,7 @@ Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/gravityforms-nl/
 Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.6.12 | <strong>User Registration Add-On</strong> 1.4 | <strong>Campaign Monitor Add-On</strong> 2.0 | <strong>MailChimp Add-On</strong> 1.7 | <strong>PayPal Add-On</strong> 1.6 | <strong>Signature Add-On</strong> 1.2 | <strong>Polls Add-On</strong> 1.0
 
-Version: 2.6.19
+Version: 2.7
 Requires at least: 3.0
 
 Author: Pronamic
@@ -44,8 +44,10 @@ class GravityFormsNL {
 
 		add_filter( 'load_textdomain_mofile', array( __CLASS__, 'load_textdomain_mofile' ), 10, 2 );
 
-		add_filter( 'gform_admin_pre_render', array( __CLASS__, 'gform_admin_pre_render' ) );
-		add_filter( 'gform_currencies',       array( __CLASS__, 'gform_currencies' ) );
+		add_filter( 'gform_admin_pre_render',       array( __CLASS__, 'gform_admin_pre_render' ) );
+		add_filter( 'gform_currencies',             array( __CLASS__, 'gform_currencies' ) );
+		add_filter( 'gform_address_types',          array( __CLASS__, 'gform_address_types' ) );
+		add_filter( 'gform_address_display_format', array( __CLASS__, 'gform_address_display_format' ) );
 
 		add_action( 'wp_print_scripts',       array( __CLASS__, 'wp_print_scripts' ) );
 
@@ -202,6 +204,55 @@ class GravityFormsNL {
 		);
 
 		return $currencies; 
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Address types
+	 * 
+	 * @param array $address_types
+	 */
+	public static function gform_address_types( $address_types ) {
+		// @see http://www.gravityhelp.com/forums/topic/add-custom-field-to-address-field-set
+		$address_types['dutch'] = array(
+			'label'       => __( 'Dutch', 'gravityforms_nl' ),
+			'country'     => __( 'Netherlands', 'gravityforms_nl' ),
+			'zip_label'   => __( 'Postal Code', 'gravityforms_nl' ),
+			'state_label' => __( 'Province', 'gravityforms_nl' ),
+			'states'      => array(
+				__( 'Drenthe', 'gravityforms_nl' ),
+				__( 'Flevoland', 'gravityforms_nl' ),
+				__( 'Friesland', 'gravityforms_nl' ),
+				__( 'Gelderland', 'gravityforms_nl' ),
+				__( 'Groningen', 'gravityforms_nl' ),
+				__( 'Limburg', 'gravityforms_nl' ),
+				__( 'Noord-Brabant', 'gravityforms_nl' ),
+				__( 'Noord-Holland', 'gravityforms_nl' ),
+				__( 'Overijssel', 'gravityforms_nl' ),
+				__( 'Utrecht', 'gravityforms_nl' ),
+				__( 'Zeeland', 'gravityforms_nl' ),
+				__( 'Zuid-Holland', 'gravityforms_nl' )
+			)
+		);
+
+		return $address_types; 
+	}
+
+	////////////////////////////////////////////////////////////
+
+	/**
+	 * Address display format
+	 * 
+	 * @see http://www.gravityhelp.com/documentation/page/Gform_address_display_format
+	 * @param array $address_types
+	 */
+	public static function gform_address_display_format( $format ) {
+		if ( self::$is_dutch ) {
+			return 'zip_before_city';
+		}
+		
+		return $format;
 	}
 }
 
