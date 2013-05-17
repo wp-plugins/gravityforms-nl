@@ -2,9 +2,9 @@
 /*
 Plugin Name: Gravity Forms (nl)
 Plugin URI: http://pronamic.eu/wp-plugins/gravityforms-nl/
-Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.7.2 | <strong>User Registration Add-On</strong> 1.5 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.1 | <strong>PayPal Add-On</strong> 1.7 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.2
+Description: Extends the Gravity Forms plugin and add-ons with the Dutch language: <strong>Gravity Forms</strong> 1.7.2.11 | <strong>User Registration Add-On</strong> 1.5 | <strong>Campaign Monitor Add-On</strong> 2.1 | <strong>MailChimp Add-On</strong> 2.1 | <strong>PayPal Add-On</strong> 1.7 | <strong>Signature Add-On</strong> 1.3 | <strong>Polls Add-On</strong> 1.2
 
-Version: 2.7.2
+Version: 2.7.4
 Requires at least: 3.0
 
 Author: Pronamic
@@ -220,23 +220,34 @@ class GravityFormsNL {
 			'country'     => __( 'Netherlands', 'gravityforms_nl' ),
 			'zip_label'   => __( 'Postal Code', 'gravityforms_nl' ),
 			'state_label' => __( 'Province', 'gravityforms_nl' ),
-			'states'      => array(
-				__( 'Drenthe', 'gravityforms_nl' ),
-				__( 'Flevoland', 'gravityforms_nl' ),
-				__( 'Friesland', 'gravityforms_nl' ),
-				__( 'Gelderland', 'gravityforms_nl' ),
-				__( 'Groningen', 'gravityforms_nl' ),
-				__( 'Limburg', 'gravityforms_nl' ),
-				__( 'Noord-Brabant', 'gravityforms_nl' ),
-				__( 'Noord-Holland', 'gravityforms_nl' ),
-				__( 'Overijssel', 'gravityforms_nl' ),
-				__( 'Utrecht', 'gravityforms_nl' ),
-				__( 'Zeeland', 'gravityforms_nl' ),
-				__( 'Zuid-Holland', 'gravityforms_nl' )
-			)
+			'states'      => array_merge(array(''), self::get_dutch_provinces())
 		);
 
 		return $address_types; 
+	}
+	
+	////////////////////////////////////////////////////////////
+	
+	/**
+	 * Get list of Dutch provinces
+	 * 
+	 * @return array
+	 */
+	public static function get_dutch_provinces() {
+		return array(
+			__( 'Drenthe', 'gravityforms_nl' ),
+			__( 'Flevoland', 'gravityforms_nl' ),
+			__( 'Friesland', 'gravityforms_nl' ),
+			__( 'Gelderland', 'gravityforms_nl' ),
+			__( 'Groningen', 'gravityforms_nl' ),
+			__( 'Limburg', 'gravityforms_nl' ),
+			__( 'Noord-Brabant', 'gravityforms_nl' ),
+			__( 'Noord-Holland', 'gravityforms_nl' ),
+			__( 'Overijssel', 'gravityforms_nl' ),
+			__( 'Utrecht', 'gravityforms_nl' ),
+			__( 'Zeeland', 'gravityforms_nl' ),
+			__( 'Zuid-Holland', 'gravityforms_nl' )
+		);	
 	}
 
 	////////////////////////////////////////////////////////////
